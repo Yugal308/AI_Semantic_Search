@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Search</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="heading"><span class="text-big">S</span><p>emantic </p>  <span class="text-big">S</span><p>earch</p> 
+    <img src="/static/search.png" class="searchlogo" alt="search_logo">
+    </div>
+    <div class="container">
+        <form action="" method="post">
+        <input type="text" name="search_query" placeholder="Write the query that you want to search" class="search"/>
+        <button class="search_btn" type="submit">Search</button>
+        </form>
+    </div>
+    <div class="results">
+        {% for result in search_results %}
+            <div class="result">
+                <h4 class="result_title">
+                    <li>{{result['title']}}</li>
+                </h4>
+                <div>
+                    <b>Abstract:</b> {{result['abstract']}}
+                </div>                
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
