@@ -24,4 +24,11 @@ To use this semantic search engine, follow these steps:
 <li> Enter your search query and view the search results
 
 ## ScreenShots
-
+### Home Screen
+![SS](https://github.com/Yugal308/AI_Semantic_Search/assets/63037914/6959013c-3fab-4a50-b290-1f8e2502c934)
+ 
+### Output of "Jquery error" query
+![Sss](https://github.com/Yugal308/AI_Semantic_Search/assets/63037914/53223eeb-ea03-4499-81c0-d7e956bfb76f)
+ 
+### Output of "Python pip error" query
+![S](https://github.com/Yugal308/AI_Semantic_Search/assets/63037914/5cdcd47f-92f5-43de-9c06-3baf834340d1)
